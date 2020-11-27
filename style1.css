@@ -1,0 +1,168 @@
+html {
+    background-color: linear-gradient (180deg, #FFFFFF 0%, #C791E8 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.bg-purple-gradient {
+    background: linear-gradient(180deg, #FFFFFF 0%, #C791E8 100%);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.back{
+    
+position: absolute;
+width: 50px;
+height: 47.73px;
+left: 9px;
+top: 9px;
+}
+.logo{
+    position: absolute;
+width: 136px;
+height: 81px;
+left: 59px;
+top: 3px;
+}
+
+.profile{
+    position: absolute;
+width: 88px;
+height: 88px;
+left: 650px;
+top: 68px;
+}
+
+.keranjang{
+    position: absolute;
+width: 33px;
+height: 32px;
+left: 1320px;
+top: 14px;
+}
+
+.search{
+    position: absolute;
+width: 27px;
+height: 26px;
+left: 1280px;
+top: 19px;
+}
+
+.profile1{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 1371px;
+top: 10px;
+}
+
+.obat{
+    position: absolute;
+    width: 427px;
+    height: 281;
+    left:-29px;
+    top:400px;
+    transform: rotate(-15deg);
+}
+.background{
+    background-color: #C791E8 ;
+}
+header{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    align: center;
+   
+}
+.section-form{
+    margin-left: 49px;
+    margin-right: 40px;
+
+}
+
+.form-input {
+    position: absolute;
+width: 486px;
+height: 28px;
+left: 450px;
+top: 203px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-60{
+    margin-bottom:60px;
+}
+.label-username{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.form-input1{
+    position: absolute;
+width: 486px;
+height: 28px;
+left: 450px;
+top: 253px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.form-input2{
+    position: absolute;
+width: 486px;
+height: 28px;
+left: 450px;
+top: 304px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.form-input3{
+    position: absolute;
+width: 486px;
+height: 28px;
+left: 450px;
+top: 355px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.form-input4{
+    position: absolute;
+width: 486px;
+height: 28px;
+left: 450px;
+top: 406px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}

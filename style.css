@@ -1,0 +1,151 @@
+html {
+    background-color: #50B620;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 816px;
+    height: 534px;
+    left:0px;
+    top:0px;
+
+}
+.container {
+    position: relative;
+    height: 100vh;
+}
+header {
+    position: absolute;
+width: 800px;
+height: 71px;
+left: 250px;
+top: 95px;
+text-align: center;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.gambarbawah{
+    position: absolute;
+    width: 427px;
+    height: 281;
+    left:-29px;
+    top:300px;
+    transform: rotate(-15deg);
+}
+
+.gambaratas{
+    position: absolute;
+    width: 359.11px;
+    height: 201;
+    left:1000px;
+    top:-30px;
+    transform: rotate(-175deg);
+
+}
+.section-form{
+    margin-left: 49px;
+    margin-right: 40px;
+}
+.form-input {
+    position: absolute;
+width: 245px;
+height: 28px;
+left: 400px;
+top: 200px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-60{
+    margin-bottom:60px;
+}
+.label-namabelakang{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.form-input1{
+    position: absolute;
+    width: 245px;
+    height: 28px;
+    left: 670px;
+    top: 200px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.form-input2{
+    position: absolute;
+width: 516px;
+height: 28px;
+left: 400px;
+top: 263px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.form-input3{
+    position: absolute;
+width: 511px;
+height: 28px;
+left: 400px;
+top: 326px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.form-input4{
+    position: absolute;
+width: 511px;
+height: 28px;
+left: 400px;
+top: 383px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.button-daftar{
+    position: absolute;
+width: 184px;
+height: 28px;
+left: 550px;
+top: 443px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
