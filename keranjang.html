@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Keranjang - Herbal.in</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/herbalin.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div style="height: 20%" class="header">
+      <a href="#" onclick="goBack()"><img src="assets/back.png" alt="back arrow" style="float: left" class="icon-header"></a>
+      <a href="index.html"><img src="assets/logo.png" alt="Herbal.in Logo" class="center-logo"></a>
+      <a href="profile.html"><img src="assets/profile.png" alt="profile icon" style="float: right" class="icon-header"></a>
+      <a href="#"><img src="assets/keranjang.png" alt="keranjang icon" style="float: right" class="icon-header"></a>
+      <div class="search-container">
+        <form action="">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="bg-purple-gradient" style="height: 80%">
+      <div class="content">
+        <div class="item">
+          <div class="left">
+            <img src="assets/obat-moringa.png" alt="item obat" style="position: relative; width:150px; height:auto;">
+          </div>
+          <h3 style="padding-top: 20px;">Moringa Powder</h3>
+          Rp. 93.000 <br><br> Jumlah: 1
+        </div>
+        <div class="item">
+          <div class="left">
+            <img src="assets/tanaman-daun.png" alt="item obat" style="position: relative; width:150px; height:auto;">
+          </div>
+          <h3 style="padding-top: 20px;">Daun Sirih</h3>
+          Rp. 30.000/kg <br><br> Jumlah: 1
+        </div>
+        <div class="item">
+          <button class="button">Total</button><br><br>
+          <button class="button">Checkout</button>
+        </div>
+      </div>
+      <img src="assets/bg-herbal.png" alt="bg herbal">
+    </div>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+  </body>
+</html>

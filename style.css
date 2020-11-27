@@ -1,14 +1,180 @@
-html {
-    background-color: #50B620;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 816px;
-    height: 534px;
-    left:0px;
-    top:0px;
-
+.html {
+  background-color: #50B620;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:0px;
+  top:0px;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.button {
+  position: absolute;
+  width: 30%;
+  height: 28px;
+  left: 35%;
+
+  background: #FFFFFF;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 270px;
+
+  position: absolute;
+  left: 20px;
+  background: linear-gradient(180deg, #E8CF91 44.27%, #FFFFFF 69.79%, #FFFFFF 92.19%), #C791E8;
+  border-radius: 30px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  top: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.desc {
+  position: absolute;
+  padding: 15px;
+  text-align: center;
+  top: 60%;
+}
+
+div.location {
+  position: absolute;
+  padding: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+div.location img {
+  top: 15%;
+  left: -15%;
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #C791E8 100%);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-purple-gradient img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.center-logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-logo {
+  position: absolute;
+  top: 10%;
+  transform: translate(0%, -50%);
+}
+
+.header {
+  padding: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.header .search-container {
+  float: right;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background: #5CD252;
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.header .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .header .search-container {
+    float: none;
+  }
+  .header a, .header input[type=text], .header .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .header input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.icon-header {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.content {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  padding: 10px;
+}
+
+.item {
+  clear: both;
+  position: relative;
+}
+
+.left {
+    float: left;
+    padding: 20px;
+}
+
+.right {
+    float: right;
+    padding: 20px;
+}​
+
 .container {
     position: relative;
     height: 100vh;
@@ -85,7 +251,7 @@ border-radius: 10px;
     height: 28px;
     left: 670px;
     top: 200px;
-    
+
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;

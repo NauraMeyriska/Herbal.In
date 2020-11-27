@@ -1,12 +1,7 @@
-html {
-    background-color: linear-gradient (180deg, #FFFFFF 0%, #C791E8 100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+body, html {
+  height: 100%;
+  margin: 0;
 }
-
 .bg-purple-gradient {
     background: linear-gradient(180deg, #FFFFFF 0%, #C791E8 100%);
     /* Center and scale the image nicely */
@@ -16,13 +11,19 @@ html {
     position: relative;
   }
 
+  .bg-purple-gradient img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
 .container {
     position: relative;
     height: 100vh;
 }
 
 .back{
-    
+
 position: absolute;
 width: 50px;
 height: 47.73px;
@@ -69,25 +70,8 @@ left: 1371px;
 top: 10px;
 }
 
-.obat{
-    position: absolute;
-    width: 427px;
-    height: 281;
-    left:-29px;
-    top:400px;
-    transform: rotate(-15deg);
-}
 .background{
     background-color: #C791E8 ;
-}
-header{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 0px;
-    top: 0px;
-    align: center;
-   
 }
 .section-form{
     margin-left: 49px;
