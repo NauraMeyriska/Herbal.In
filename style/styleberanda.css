@@ -1,0 +1,184 @@
+html {
+    position: relative;
+    width: 816px;
+    height: 534px;
+
+    background-color: #FFFFFF;
+}
+
+#container {
+    position: relative;
+    height: 100vh; 
+
+}
+
+header {
+    position: absolute;
+    width: 816px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    left: 17px;
+    top: 10px;
+}
+
+.pencarian {
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    left: 1150px;
+    top: 65px;
+}
+
+.profil {
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    left: 1263px;
+    top: 58px;
+}
+
+.keranjang {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 1203px;
+    top: 62px;
+}
+
+.gambar1 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1100px;
+    top: -65px;
+}
+
+.gambar2 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1150px;
+    top: -65px;
+}
+
+.gambar3 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1200px;
+    top: -65px;
+}
+
+.gambar4 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1244px;
+    top: -65px;
+}
+
+.form-input {
+    position: absolute;
+    width: 211px;
+    height: 26px;
+    left: 930px;
+    top: 65px;
+
+    background: #50B620;
+    background-blend-mode: multiply;
+
+}
+
+.beranda {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 7px;
+    top: 101px;
+
+    background: linear-gradient(180deg, rgba(199, 145, 232, 0.69) 2.6%, rgba(152, 11, 239, 0) 100%);
+    border-radius: 8px;
+}
+
+.Daftar-Obat {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 227px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Daftar-TanamanHerbal {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 447px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Detail-Obat {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 667px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Detail-Tanaman-Herbal {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 887px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Resep {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 1107px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.image-1 {
+    position: absolute;
+    width: 427px;
+    height: 281px;
+    left: -319px;
+    top: 190px;;
+    transform: rotate(-15deg);
+}
+
+footer {
+    position: absolute;
+    width: 1351px;
+    height: 81px;
+    left: -10px;
+    top: 560px;
+
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #C791E8 99.99%, rgba(196, 196, 196, 0) 100%);
+}
