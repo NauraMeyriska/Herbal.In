@@ -1,0 +1,316 @@
+html {
+    background-color: linear-gradient (4.47deg, #5CD252 39.31%, rgba(255, 255, 255, 0) 96.38%);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.bg-green-gradient {
+    background: linear-gradient(4.47deg, #5CD252 39.31%, rgba(255, 255, 255, 0) 96.38%);;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+#container {
+    position: relative;
+    height: 100vh; 
+
+}
+
+header {
+    position: absolute;
+    width: 816px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    left: 59px;
+    top: 3px;
+    }
+
+.pencarian {
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    left: 1150px;
+    top: 65px;
+}
+
+.profil {
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    left: 1263px;
+    top: 58px;
+}
+
+.keranjang {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 1203px;
+    top: 62px;
+}
+
+.gambar1 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1100px;
+    top: -65px;
+}
+
+.gambar2 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1150px;
+    top: -65px;
+}
+
+.gambar3 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1200px;
+    top: -65px;
+}
+
+.gambar4 {
+    position: absolute;
+    width: 140px;
+    height: 134px;
+    left: 1244px;
+    top: -65px;
+}
+
+.form-input {
+    position: absolute;
+    width: 211px;
+    height: 26px;
+    left: 930px;
+    top: 65px;
+
+    background: #50B620;
+    background-blend-mode: multiply;
+
+}
+
+.beranda {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 7px;
+    top: 101px;
+
+    background:  #C791E8;
+    border-radius: 8px;
+}
+
+.Daftar-Obat {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 227px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Daftar-TanamanHerbal {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 447px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Detail-Obat {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 667px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Detail-Tanaman-Herbal {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 887px;
+    top: 101px;
+
+    background: #C791E8;
+    border-radius: 8px;
+}
+
+.Resep {
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 1107px;
+    top: 101px;
+
+    background:linear-gradient(180deg, rgba(199, 145, 232, 0.69) 2.6%, rgba(152, 11, 239, 0) 100%);
+    border-radius: 8px;
+}
+.Batuk{
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 230px;
+    top: 175px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Diare{
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 720px;
+    top: 175px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Nyeri_Ulu_Hati{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 230px;
+top: 221px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Pilek{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 720px;
+top: 223px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Diabetes{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 230px;
+top: 267px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Demam{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 720px;
+top: 267px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Flu{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 230px;
+top: 313px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Alergi{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 720px;
+top: 314px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Hepatitis{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 230px;
+top: 359px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Hemofilia{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 720px;
+top: 364px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Rubella{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 230px;
+top: 403px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.Kerion{
+    position: absolute;
+width: 400px;
+height: 28px;
+left: 720px;
+top: 406px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+footer {
+    position: absolute;
+    width: 1351px;
+    height: 81px;
+    left: -10px;
+    top: 560px;
+
+    background: linear-gradient(4.47deg, #5CD252 39.31%, rgba(255, 255, 255, 0) 96.38%);
+}
