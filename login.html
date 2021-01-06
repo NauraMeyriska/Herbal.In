@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herbal In</title>
-    <link rel="stylesheet" href="natural-organic-vitamin-supplements-leaf-mortar-wooden-background-medicine-drug-concept_103324-430-removebg-preview.png">
+    <link rel="stylesheet" href="assets/bg-herbal.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Redressed">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img class="gambar-atas" src="natural-organic-vitamin-supplements-leaf-mortar-wooden-background-medicine-drug-concept_103324-430-removebg-preview.png">
+            <img class="gambar-atas" src="assets/bg-herbal.png">
             <link rel="stylesheet" href="style/style.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Redressed">
-            <img class="gambar-bawah" src="natural-organic-vitamin-supplements-leaf-mortar-wooden-background-medicine-drug-concept_103324-430-removebg-preview.png">
+            <img class="gambar-bawah" src="assets/bg-herbal.png">
             Herbal In
         </header>
         <div class ="section-form">
@@ -30,12 +30,47 @@
                 </div>
               <input class="form-input1" type="text" placeholder="Kata Sandi : ">
               </div>
-              <button class = "button-masuk">
+              <button class = "button-masuk" >
                 Masuk
               </button>
+            
             </div>
 
         </div>
     </div>
 </body>
 </html>
+
+<?php
+
+require_once("koneksi.php");
+
+if(isset($_POST['login'])){
+$namapengguna = filter_input(INPUT_POST, 'namapengguna', FILTER_SANITIZE_STRING);
+$katasandi = filter_input(INPUT_POST, 'katasandi', FILTER_SANITIZE_STRING);
+
+$sql = "SELECT * FROM users WHERE namapengguna=:namapengguna;
+$stmt = $db->prepare($sql);
+
+// bind parameter ke query
+$params = array(
+    ":username" => $username,
+);
+
+$stmt->execute($params);
+
+$user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// jika user terdaftar
+if($user){
+    // verifikasi password
+    if(katasandi_verify($katasandi, $user["katasandi"])){
+        // buat Session
+        session_start();
+        $_SESSION["user"] = $user;
+        // login sukses, alihkan ke halaman timeline
+        header("Location: beranda.php");
+    }
+}
+}
+?>
